@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Playfair+Display:wght@900&family=Roboto:wght@500&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	position: absolute;
+	font-size: 1.75rem;
+	padding: 4vh 0 0 10vw;
+	font-weight: bold;
+	width: 13vw;
+}
+.bar-top{
+	background-color: white;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	height: 10vh;
+	margin-top: 0;
+}
+.background-header{
+	margin-top: 2.5vh;
+	background-image: url("media/background-header.png");
+	width: 100%;
+	height: 40vw;
+}
+h2{
+	font-size: 4rem;
+	color: white;
+	font-weight: 900;
+	padding: 30vh 0 0 10vw;
+}
+header p{
+	color: white;
+	font-size: 2rem;
+	font-weight: 200;
+	margin: 5vh 0 0 10vw;
+}
+ul{
+	position: absolute;
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	width: 30vw;
+	margin-left: 60vw;
+	margin-top: 5vh;
+}
+li:hover{
+	cursor: pointer;
+	font-weight: 900;
+}
+.background-header{
+	position: absolute;
+	margin-top: 13vh;
+	background-image: url(media/background-header.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 80vh;
+}
+.background-header p{
+	font-size: 1.7rem;
+	color: white;
+	font-weight: 200;
+	margin:5vh 0 0 10vw;
+}
+main{
+	position: absolute;
+	width: 80vw;
+	height: 117vh;
+	margin: 100vh 0 0 10vw;
+}
+main .line1{
+	display: flex;
+	justify-content: space-around;
+}
+main img{
+	width: 19vw;
+}
+main .line2{
+	padding-top: 1.7vh;
+	display: flex;
+	justify-content: space-around;
+}
+main .line3{
+	padding-top: 1.7vh;
+	display: flex;
+	justify-content: space-around;
+}
