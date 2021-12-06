@@ -122,3 +122,39 @@ footer section .p2{
 	position: absolute;
 	margin: 1.3vw 0 0 37vw;
 }
+@media(max-width: 1350px){
+	h1{
+		font-family: Montserrat;
+		position: absolute;
+		font-size: 1.5rem;
+		padding: 2vw 0 0 10vw;
+		font-weight: 900;
+		width: 13vw;
+	}
+	ul{
+		width: 40vw;
+		margin-left: 50vw;
+		margin-top: 2.4vw;
+	}
+	h3{
+		margin: 0.6vw 0 0 40vw;
+	}
+	footer section img{
+		width: 2vw;
+	}
+	.facebook-disgraçado{
+		width: 1vw;
+	}
+	footer section p{
+		width: 40vw;
+		font-size: 0.7rem;
+		position: absolute;
+		margin: 0.5vw 0 0 50vw;
+	}
+	footer section .p2{
+		font-size: 0.7rem;
+		width: 40vw;
+		position: absolute;
+		margin: 1.3vw 0 0 50vw;
+	}
+}
