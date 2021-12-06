@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Playfair+Display:wght@900&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;700&display=swap');
 *{
 	padding: 0;
 	margin: 0;
@@ -6,10 +6,11 @@
 	font-family: 'Montserrat', sans-serif;
 }
 h1{
+	font-family: Montserrat;
 	position: absolute;
 	font-size: 1.75rem;
 	padding: 4vh 0 0 10vw;
-	font-weight: bold;
+	font-weight: 900;
 	width: 13vw;
 }
 .bar-top{
@@ -17,35 +18,36 @@ h1{
 	position: fixed;
 	z-index: 10;
 	width: 100%;
-	height: 10vh;
+	height: 6vw;
 	margin-top: 0;
-}
-.background-header{
+}.background-header{
 	margin-top: 2.5vh;
 	background-image: url("media/background-header.png");
-	width: 100%;
+	background-size: 100%;
+	width: 100vw;
 	height: 40vw;
 }
 h2{
 	font-size: 4rem;
 	color: white;
 	font-weight: 900;
-	padding: 30vh 0 0 10vw;
+	padding: 15vw 0 0 10vw;
 }
 header p{
 	color: white;
 	font-size: 2rem;
 	font-weight: 200;
-	margin: 5vh 0 0 10vw;
+	margin: 4vw 0 0 10vw;
 }
 ul{
+	font-weight: 400;
 	position: absolute;
 	display: flex;
 	justify-content: space-evenly;
 	list-style: none;
 	width: 30vw;
 	margin-left: 60vw;
-	margin-top: 5vh;
+	margin-top: 3vw;
 }
 li:hover{
 	cursor: pointer;
@@ -53,23 +55,23 @@ li:hover{
 }
 .background-header{
 	position: absolute;
-	margin-top: 13vh;
+	margin-top: 6vw;
 	background-image: url(media/background-header.png);
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 80vh;
+	height: 80vw;
 }
 .background-header p{
 	font-size: 1.7rem;
 	color: white;
 	font-weight: 200;
-	margin:5vh 0 0 10vw;
+	margin:3vw 0 0 10vw;
 }
 main{
 	position: absolute;
 	width: 80vw;
-	height: 117vh;
-	margin: 100vh 0 0 10vw;
+	height: 65vw;
+	margin: 50vw 0 0 10vw;
 }
 main .line1{
 	display: flex;
@@ -79,44 +81,44 @@ main img{
 	width: 19vw;
 }
 main .line2{
-	padding-top: 1.7vh;
+	padding-top: 1vw;
 	display: flex;
 	justify-content: space-around;
 }
 main .line3{
-	padding-top: 1.7vh;
+	padding-top: 1vw;
 	display: flex;
 	justify-content: space-around;
 }
 footer{
 	background-color: #D3D3D3;
 	width: 100%;
-	height: 13vh;
+	height: 7vw;
 	position: absolute;
-	margin-top: 115vw;
+	top:113vw;
 }
 footer section{
 	width: 30vw;
 	position: absolute;
-	margin: 5vh 0 0 8vw;
+	margin: 3vw 0 0 8vw;
 }
 footer section img{
 	margin-left: 1.8vw;
 }
 h3{
-	font-weight: 900;
+	font-weight: 700;
 	position: absolute;
-	margin: 1vh 0 0 30vw;
+	margin: 0.6vw 0 0 30vw;
 }
 footer section p{
 	font-size: 0.7rem;
 	width: 50vw;
 	position: absolute;
-	margin: 1vh 0 0 37vw;
+	margin: 0.5vw 0 0 37vw;
 }
 footer section .p2{
 	font-size: 0.7rem;
 	width: 50vw;
 	position: absolute;
-	margin: 2vh 0 0 37vw;
+	margin: 1.3vw 0 0 37vw;
 }
