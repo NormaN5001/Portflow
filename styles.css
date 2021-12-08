@@ -8,7 +8,7 @@
 h1{
 	font-family: Montserrat;
 	position: absolute;
-	font-size: 1.75rem;
+	font-size: 1.5vw;
 	padding: 4vh 0 0 10vw;
 	font-weight: 900;
 	width: 13vw;
@@ -28,14 +28,14 @@ h1{
 	height: 40vw;
 }
 h2{
-	font-size: 4rem;
+	font-size: 3.5vw;
 	color: white;
 	font-weight: 900;
 	padding: 15vw 0 0 10vw;
 }
 header p{
 	color: white;
-	font-size: 2rem;
+	font-size: 2vw;
 	font-weight: 200;
 	margin: 4vw 0 0 10vw;
 }
@@ -62,7 +62,7 @@ li:hover{
 	height: 80vw;
 }
 .background-header p{
-	font-size: 1.7rem;
+	font-size: 1.5vw;
 	color: white;
 	font-weight: 200;
 	margin:3vw 0 0 10vw;
@@ -111,31 +111,18 @@ h3{
 	margin: 0.6vw 0 0 30vw;
 }
 footer section p{
-	font-size: 0.7rem;
+	font-size: 0.6vw;
 	width: 50vw;
 	position: absolute;
 	margin: 0.5vw 0 0 37vw;
 }
 footer section .p2{
-	font-size: 0.7rem;
+	font-size: 0.6vw;
 	width: 50vw;
 	position: absolute;
 	margin: 1.3vw 0 0 37vw;
 }
 @media(max-width: 1350px) and (min-width: 1200px){
-	h1{
-		font-family: Montserrat;
-		position: absolute;
-		font-size: 1.5rem;
-		padding: 2vw 0 0 10vw;
-		font-weight: 900;
-		width: 13vw;
-	}
-	ul{
-		width: 40vw;
-		margin-left: 50vw;
-		margin-top: 2.4vw;
-	}
 	h3{
 		margin: 0.6vw 0 0 40vw;
 	}
@@ -152,7 +139,7 @@ footer section .p2{
 		margin: 0.5vw 0 0 50vw;
 	}
 	footer section .p2{
-		font-size: 0.7rem;
+		font-size: 0.6vw;
 		width: 40vw;
 		position: absolute;
 		margin: 1.3vw 0 0 50vw;
@@ -181,9 +168,9 @@ footer section .p2{
 	}
 	footer section p{
 		width: 45vw;
-		font-size: 0.7rem;
+		font-size: 1vw;
 		position: absolute;
-		margin: 0vw 0 0 45vw;
+		margin: 0.5vw 0 0 45vw;
 	}
 	footer section .p2{
 		display: none;
@@ -199,7 +186,7 @@ footer section .p2{
 	h1{
 		position: absolute;
 		padding: 1.2vw 0 0 35vw;
-		font-size: 1.3rem;
+		font-size: 1.2vw;
 	}
 	ul{
 		display: none;
