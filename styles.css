@@ -159,6 +159,10 @@ footer section .p2{
 	}
 }
 @media(max-width: 1199px) and (min-width: 870px){
+	ul{
+		margin-left: 45vw;
+		width: 45vw;
+	}
 	h1{
 		position: absolute;
 		font-size: 1.5rem;
@@ -186,5 +190,23 @@ footer section .p2{
 	}
 }
 @media(max-width: 869px) and (min-width: 400px){
-	
+	.menu-mobile{
+		position: absolute;
+		width: 30vw;
+		height: 6vw;
+		background-color: black;
+	}
+	h1{
+		position: absolute;
+		padding: 1.2vw 0 0 35vw;
+		font-size: 1.3rem;
+	}
+	ul{
+		display: none;
+	}
+	.background-header{
+		background-image: url(media/background-header-mobile.png);
+		width: 100vw;
+		height: 100vw;
+	}
 }
