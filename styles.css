@@ -122,7 +122,7 @@ footer section .p2{
 	position: absolute;
 	margin: 1.3vw 0 0 37vw;
 }
-@media(max-width: 1350px){
+@media(max-width: 1350px) and (min-width: 1200px){
 	h1{
 		font-family: Montserrat;
 		position: absolute;
@@ -142,7 +142,7 @@ footer section .p2{
 	footer section img{
 		width: 2vw;
 	}
-	.facebook-disgraçado{
+	.facebook-icon{
 		width: 1vw;
 	}
 	footer section p{
@@ -157,4 +157,34 @@ footer section .p2{
 		position: absolute;
 		margin: 1.3vw 0 0 50vw;
 	}
+}
+@media(max-width: 1199px) and (min-width: 870px){
+	h1{
+		position: absolute;
+		font-size: 1.5rem;
+		padding: 1.5vw 0 0 10vw;
+		font-weight: 900;
+		width: 13vw;
+	}
+	h3{
+		margin: 0vw 0 0 33vw;
+	}
+	footer section img{
+		width: 3vw;
+	}
+	.facebook-icon{
+		width: 1.5vw;
+	}
+	footer section p{
+		width: 45vw;
+		font-size: 0.7rem;
+		position: absolute;
+		margin: 0vw 0 0 45vw;
+	}
+	footer section .p2{
+		display: none;
+	}
+}
+@media(max-width: 869px) and (min-width: 400px){
+	
 }
