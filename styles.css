@@ -369,4 +369,7 @@ footer section .p2{
 		position: absolute;
 		margin: 27vw 25vw 0 0;
 	}
+	.bar-top{
+	position: absolute;
+}
 }
