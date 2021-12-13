@@ -11,6 +11,9 @@
 .footer-mobile{
 	display: none;
 }
+.botton-top{
+	display: none;
+}
 h1{
 	font-family: Montserrat;
 	position: absolute;
@@ -281,14 +284,18 @@ footer section .p2{
 		display: none;
 	}
 	h1{
+		width: 100vw;
+		height: 5.5vh;
+		position: fixed;
+		background-color: white;
 		padding-left: 50vw;
 		padding-top: 2.5vw;
 		font-size: 5vw;
 	}
 	.menu-mobile{
-		position: absolute;
+		position: fixed;
 		display: flex;
-		height: 6vh;
+		height: 5.5vh;
 		width: 40vw;
 		background-color: black;
 	}
@@ -296,6 +303,9 @@ footer section .p2{
 		width: 5vw;
 		height: 2.5vh;
 		margin:2.5vw 0 0 10vw;
+	}
+	.menu-mobile img:hover{
+		cursor: pointer;
 	}
 	.background-header{
 		background-image: url(media/back-header-mobile.png);
@@ -371,5 +381,21 @@ footer section .p2{
 	}
 	.bar-top{
 	position: absolute;
-}
+	}
+	.botton-top{
+		margin: 6vh 0 0 65vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #333333;
+		width: 15vw;
+		height: 4vh;
+	}
+
+	.botton-top a{
+		color: black;
+		text-decoration: none;
+		transition-property: 10s;
+	}
+
 }
