@@ -210,6 +210,9 @@ footer section .p2{
 	footer section .p2{
 		display: none;
 	}
+	footer{
+		top: 130vw;
+	}
 	h3{
 		font-size: 1.5vw;
 	}
@@ -383,7 +386,7 @@ footer section .p2{
 	position: absolute;
 	}
 	.botton-top{
-		margin: 6vh 0 0 65vw;
+		margin: 3vh 0 0 65vw;
 		display: flex;
 		justify-content: center;
 		align-items: center;
